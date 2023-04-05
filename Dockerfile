@@ -2,6 +2,8 @@ FROM ubuntu
 
 MAINTAINER kichu kichu123@gmail.com
 
+RUN apt-get install unzip -y
+
 RUN apt-get update -y
 
 RUN apt-get install apache2 -y
